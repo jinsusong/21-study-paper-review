@@ -1,9 +1,9 @@
 # study-paper-review
-NLP paper review
+## NLP paper review
 
-0. Task-oriented Dialogue System에 대한 넓고 얕은 지식들
+- Task-oriented Dialogue System에 대한 넓고 얕은 지식들
 
-1. A Persona-Based Neural Conversation Model
+- 1. A Persona-Based Neural Conversation Model
     - 19 Mar 2016 
 
 2. Google's Neural Machine Translation 
