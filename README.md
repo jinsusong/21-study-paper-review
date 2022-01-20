@@ -4,7 +4,7 @@
     - 19 Mar 2016 
 
 ## 2. Google's Neural Machine Translation 
-    - 2016 년 11 월
+    - Nov 2016
 
 
 ## 3. Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation
