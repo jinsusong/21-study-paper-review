@@ -10,10 +10,10 @@
 ## 3. Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation
     - 14 Nov 2016
 
-## 4. Adversarial Examples for Evaluating Reading Comprehension Systems
+## 4. Adversarial Examples for Evaluating Reading Comprehension Systems(EMNLP)
     - 23 Jul 2017
 
-## 5. Unsupervised Machine Translation Using Monolingual Corpora Only
+## 5. Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)
     - 31 Oct 2017
 
 ## 6. Graph Attention Networks(GAT)
