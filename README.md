@@ -22,7 +22,7 @@
 ## 7. Universal Sentence Encoder(EMNLP)
     - 29 Mar 2018
 
-## 8. What You Can Cram Into a Single $&!#* Vector: Probing Sentence Embeddings For Linguistc Propertie
+## 8. What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)
     - 3 May 2018
 
 ## 9. Improving Language Understanding by Generative Pre-Training & Language Models are Unsupervised Multitask Learners
