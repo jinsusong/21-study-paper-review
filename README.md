@@ -16,7 +16,7 @@
 ## 5. Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)
     - 31 Oct 2017
 
-## 6. Graph Attention Networks(GAT)
+## 6. Graph Attention Networks(ICLR)
     - 30 Oct 2017
 
 ## 7. Universal Sentence Encoder
