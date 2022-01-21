@@ -19,7 +19,7 @@
 ## 6. Graph Attention Networks(ICLR)
     - 30 Oct 2017
 
-## 7. Universal Sentence Encoder
+## 7. Universal Sentence Encoder(EMNLP)
     - 29 Mar 2018
 
 ## 8. What You Can Cram Into a Single $&!#* Vector: Probing Sentence Embeddings For Linguistc Propertie
