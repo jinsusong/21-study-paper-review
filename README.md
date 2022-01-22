@@ -48,7 +48,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - 미분류 데이터로부터 언어적 정보를 얻어낼 수 있는 모델을 구축해야함
 
-## 10. Neural document summarization by jointly learning to score and select sentences
+## 10. Neural document summarization by jointly learning to score and select sentences (ACL)
     - 6 Jul 2018
 
 ## 11. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
