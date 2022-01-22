@@ -75,9 +75,27 @@
 ## 11. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
     - 11 Oct 2018
 
-## 12. Semi-Supervised Sequence Modeling With Cross-View Training
+## 12. Semi-Supervised Sequence Modeling With Cross-View Training(EMNLP)
     - 22 Sep 2018
-
+    
+    1) 저자의 연구가 왜 중요한가? 
+        - 
+        
+    2) 기존에 어떤 연구들이 이루어졌는가?
+        - 
+        
+    3) 저자의 연구가 이 분야에 무엇을 기여하는가?
+        - 
+    
+    4) 저자가 찾은 연구 결과가 무엇인가?
+        - 
+        
+    5) 저자의 연구가 제기하는 문제는 무엇인가?
+        - 
+        
+    6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
+        - 
+        
 ## 13. A Survey on Deep Learning for Named Entity Recognition
     - 22 Dec 2018
 
