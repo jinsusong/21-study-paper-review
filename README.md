@@ -27,6 +27,12 @@
 
 ## 9. Improving Language Understanding by Generative Pre-Training & Language Models are Unsupervised Multitask Learners
     - Jun 2018 &  Aug 2019
+    - 당신의 연구가 왜 중요한가? 
+    - 기존에 어떤 연구들이 이루어졌는가?
+    - 당신의 연구가 이 분야에 무엇을 기여하는가?
+    - 당신이 찾은 연구 결과가 무엇인가?
+    - 당신의 연구가 제기하는 문제는 무엇인가?
+    - 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
 
 ## 10. Neural document summarization by jointly learning to score and select sentences
     - 6 Jul 2018
