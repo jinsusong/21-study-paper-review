@@ -25,8 +25,8 @@
 ## 8. What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)
     - 3 May 2018
 
-## 9. Improving Language Understanding by Generative Pre-Training & Language Models are Unsupervised Multitask Learners
-    - Jun 2018 &  Aug 2019
+## 9. Improving Language Understanding by Generative Pre-Training GPT1
+    - Jun 2018
     
     1) 저자의 연구가 왜 중요한가? 
         - 원본 그대로의 텍스트 데이터를 효과적으로 학습하는 능력은 통해 NLP에서 지도학습에 대한 의존성을 낮춤
@@ -69,8 +69,26 @@
 ## 16. Text Summarization with Pretrained Encoders
     - 22 Aug 2019
 
-## 17. Improving Language Understanding by Generative Pre-Training & Language Models are Unsupervised Multitask Learners
-    - Jun 2018  &  Aug 2019
-
+## 17. Language Models are Unsupervised Multitask Learners GPT2 
+    - Aug 2019
+ 
+    1) 저자의 연구가 왜 중요한가? 
+        - 
+        
+    2) 기존에 어떤 연구들이 이루어졌는가?
+        - 
+        
+    3) 저자의 연구가 이 분야에 무엇을 기여하는가?
+        - 
+        
+    4) 저자가 찾은 연구 결과가 무엇인가?
+        -
+        
+    5) 저자의 연구가 제기하는 문제는 무엇인가?
+        - 
+        
+    6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
+        -
+        
 ## 18. ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
     - 23 Mar 2020
