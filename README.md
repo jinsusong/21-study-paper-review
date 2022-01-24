@@ -26,7 +26,7 @@
 ## 8. What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)
     - 3 May 2018
 
-## 9. Improving Language Understanding by Generative Pre-Training GPT1
+# 9. Improving Language Understanding by Generative Pre-Training GPT1
     - Jun 2018
     
     1) 저자의 연구가 왜 중요한가? 
