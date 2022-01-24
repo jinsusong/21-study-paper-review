@@ -168,22 +168,41 @@
     - 30 Oct 2017
     
     1) 저자의 연구가 왜 중요한가? 
-        - 
+        - GAT는 어떤한 노드의 embedding을 생성할 때 인접한 노드들에 대한 중요도를 계산하여 이를 기반으로 새로운 embedding을 만듦
         
     2) 기존에 어떤 연구들이 이루어졌는가?
-        - 
+        - CNN
+            많은 layer가 필요함,
+            자연어의 길이가 너무 길어지면 관계를 알 수 없게됨.
+        - RNN
+           구조 상 순차적으로 학습이 진행되기 때문에 병렬연산이 되지 않음.
+            시간복잡도가 올라가는 단점이 있음,
+            Vanishing gradient problem(기울기 소멸 문제) : 신경망의 활성함수의 도함수값이 계속 곱해지다보면 가중치에 따른 결과값의 기울기가 0이 되어 버려서, 경사 하강법을 이용할 수 없게 되는 문제
+            Long Term dependency(장기 의존성) :
+        - Attention
+            계산 복잡도를 줄이고
+            병렬화를 통해 길이가 길어지면서 발생하는 문제를 해결할 수 있음.
+        - About Graph
+            Graph
+            Node
+            Edge
+            Adjacency matrix
         
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
-        - 
-        
+        - GCN과의 비교를 통해, 같은 neighborthood 내의 node 들에 대해 다른 weight를 부여하는 방법이 효과적임.
+            
     4) 저자가 찾은 연구 결과가 무엇인가?
-        -
+        - GAT는 graph data structure에 적용될 수 있는 convolution을 제안한 것으로 다음과 같은 특징을 갖는다.
+            1. 장점 (효율적인 연산, 노드별 중요도 부여, Inductive learning 가능)
+                Self attention layer를 통해 node들마다 병렬화가 가능하며, 이웃 노드별로 다른 중요도를 부과할 수 있다.
+            2. 단점
+                각기 다른 이웃 Node에 대하여 attention score를 구함으로 계산 효율성을 떨어진다. (PPNP논문 비교 결과)  
         
     5) 저자의 연구가 제기하는 문제는 무엇인가?
-        - 
+        - 가장 대표적인 GNN인 graph convolutional network (GCN)에서는 노드 embedding layer가 graph convolution이라는 연산으로 정의됨.
         
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
-        -
+        - GAT에서는 self-attention으로 노드 embedding layer을 정의함.
 
 # 7 Universal Sentence Encoder
     - 29 Mar 2018
