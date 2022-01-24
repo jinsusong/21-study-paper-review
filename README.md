@@ -99,9 +99,28 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - self-training과 같은 오래된 준지도 학습 알고리즘은 레이블링된 데이터와 레이블링되지 않은 데이터의 혼합에 대한 작업에 대해 지속적으로 학습하기 때문에 이 문제를 겪지 않는다.
         
-## 13. A Survey on Deep Learning for Named Entity Recognition
+## 13. A Survey on Deep Learning for Named Entity Recognition(IEEE TRANSACTIONS ON KNOWLEDGE ANDDATAENGINEERING)
     - 22 Dec 2018
-
+    
+    1) 저자의 연구가 왜 중요한가? 
+        - 레이블이 없는 데이터를 활용하는 효과적인  Semi-Supervised training 기법을 개발.
+        
+    2) 기존에 어떤 연구들이 이루어졌는가?
+        - BiLSTM :최근 연구로는 Bi-LSTM 문장 인코더가 언어 모델링을 수행하도록 훈련시킨 다음 그 문맥에 민감한 표현을 supervised models에 통합함.
+        
+    3) 저자의 연구가 이 분야에 무엇을 기여하는가?
+        - 
+    
+    4) 저자가 찾은 연구 결과가 무엇인가?
+        - 
+        - 
+        
+    5) 저자의 연구가 제기하는 문제는 무엇인가?
+        - 
+        
+    6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
+        - 
+        
 ## 14. Cross-lingual Language Model Pretraining
     - 22 Jan 2019
 
