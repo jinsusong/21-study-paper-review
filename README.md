@@ -208,22 +208,32 @@
     - 29 Mar 2018
     
     1) 저자의 연구가 왜 중요한가? 
-        - 
+        - 문장 embedding을 활용한 전이학습이 단어 수준의 전이학습보다 뛰어난 결과를 보여주고, 적은 양의 지도 학습 데이터로도 좋은 성능을 나타냄.
         
     2) 기존에 어떤 연구들이 이루어졌는가?
-        - 
-        
+        - Word embedding
+            1. Word2vec : CBOW 모델(주변 단어로부터 목표 단어 예측)과 Skip-gram 모델(중심 단어로부터 주변 단어 예측)
+            2. GloVe : 
+                - Word2vec : 주변 단어 중심으로 학습함으로써 말뭉치의 전체적인 통계 정보를 반영하지 못하는 문제가 존재
+                - 중심 단어와 주변 단어의 내적이 전체 말뭉치에서의 동시 발생 확률이 되도록 하는 목적 함수 설정
+        - Sentence Embedding
+            1. Doc2Vec : Word2vec에서 확장된 개념으로, 문장-문단-문서 단위로 vector 계산
+            2. InferSent : entailment/contradiction/neutral로 라벨링된 영어 자연어 데이터로 지도 학습된 모델
+        - Skip -Thoughts
+            1. 고정된 길이로 문장을 표현하는 비지도 방식의 신경망 모델
+            2. 자연어 말뭉치에서 문장의 순서를 정보로 사용
+            
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
-        - 
+        - 결과적으로 워드 임베딩보다 문장 임베딩이 좋은 성능을 보였고 두 개를 같이 사용하는 것이 가장 효과가 좋았다.
         
     4) 저자가 찾은 연구 결과가 무엇인가?
-        -
+        - sentence embedding을 사용해, 매우 적은 학습 데이터로도 좋은 성능을 보임.
         
     5) 저자의 연구가 제기하는 문제는 무엇인가?
-        - 
+        - 제한적인 NLP 학습 데이터, 비용이 많이 드는 annotation 작업
         
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
-        -
+        - word2vec, GloVe와 같은 pre-trained word embeddings를 사용해 한계를 극복하려는 시도
 
 # 8 What you can cram into a single vector Probing sentence embeddings for linguistic properties
     - 3 May 2018
