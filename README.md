@@ -142,22 +142,27 @@
     - 31 Oct 2017
     
     1) 저자의 연구가 왜 중요한가? 
-        - 
+        - 적은 parallel sentence로 학습을 하는것보다 단일 언어로 이루어진 많은 데이터를 학습하는것이 더 좋다
         
     2) 기존에 어떤 연구들이 이루어졌는가?
-        - 
+        - Adversarial Attack : 이미 훈련된 모델에 대해 입력 데이터를 조작해 잘못 예측하도록 함
+        - Auto Encoder
+            1. 출력이 입력 데이터와 같아지도록 학습한 네트워크
+            2. 차원 축소, noise 제거, 이상 데이터 검출, pre-train 등에 활용
         
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
-        - 
+        - lower resource한 언어들이나 semi supervied를 활용해 더 나은 기계번역 방법이 나올 수 있음을 기대함.
         
     4) 저자가 찾은 연구 결과가 무엇인가?
-        -
+        - Parallel dataset이 아니기 때문에 번역의 품질 평가 어려움
+        - 따라서 input을 2step 번역을 통해 재구성하여 재구성한 문장과 input을 비교
+        - 제시한 모델은 한번만 반복해도 기존 방식보다 더 나은 성능을 확인할 수 있었음.
         
     5) 저자의 연구가 제기하는 문제는 무엇인가?
-        - 
+        - 일반적으로 기계번역은 source sentence와 target sentence가 쌍을 이루는 parallel 데이터가 필요함.
         
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
-        -
+        - source sentence와 target sentence가 쌍을 이루는 parallel는 구하기도 힘들고 구축하는데 많은 비용이 들어감
 
 # 6 Graph Attention Networks
     - 30 Oct 2017
