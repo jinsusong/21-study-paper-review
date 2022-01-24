@@ -59,22 +59,33 @@
     - Nov 2016
     
     1) 저자의 연구가 왜 중요한가? 
-        - 
+        - Neural Machine Translation 방식
+            1. End-to-end learning 방식을 사용
+            2. 간단한 구조를 가지고 있음.
+            3. 입력된 문장 전부를 보고 번역을 할 수 있다는 장점이 있음.  
         
     2) 기존에 어떤 연구들이 이루어졌는가?
-        - 
+        - Seq2Seq Model : 굉장히 긴 sequence가 들어온다면 고정된 컨텍스트 벡터로 인해 데이터 유실이 발생됨
+        - Attention Models : Seq2Seq의 Larger vocabulary 한계를 극복하여 성능을 개선한 Paper
         
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
-        - 
-        
+         - 제안 : seq2seq + Bahanau attention + Residual connction
+                 
     4) 저자가 찾은 연구 결과가 무엇인가?
-        -
+        - BLUE score 는 많이 올랐지만 
+        - Human 평가에서는 성능이 좋지 않았다
         
     5) 저자의 연구가 제기하는 문제는 무엇인가?
-        - 
+        - 16년 이전에는 통계방식으로 혹은 룰 베이스로 기계번역 NLP를 처리함.
+        - Phrase-based translation 을 많이 사용함 (묶이는 구와 절 단위가 있을 것이다. 그걸 묶어서 번역을 해야한다. 라는 아이디어로 진행하는 아이디어)
+        - 번역은 입력문장 전체를 입력단위를 두고 번역을 해야 정확한 문법 요소를 파악할 수 있음
+        - 기존의 방식은 구 또는 단어 단위로 독립적으로 번역하기 때문에 정확한 번역을 하기 어렵다
+        - 어떻게 분리할 것인지도 선택해야하기 때문에 성능을 내기도 어렵다.
         
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
-        -
+        - 느린 학습/추론 속도
+        - 비효율적인 rare words 처리 ( 학습 할 때 몰랐던 단어 )
+        - Source 문장 coverage
 
 # 3 Google Multilingual Neural Machine Translation System Enabling Zero Shot Translation
     - 14 Nov 2016
