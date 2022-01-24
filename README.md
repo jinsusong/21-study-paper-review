@@ -1,5 +1,5 @@
 # NLP paper review 
-1. [A](## 9. Improving Language Understanding by Generative Pre-Training GPT1)    
+[A](## 9. Improving Language Understanding by Generative Pre-Training GPT1)    
 2. 
 ## 1. A Persona-Based Neural Conversation Model
     - 19 Mar 2016 
