@@ -2,7 +2,7 @@
 1. [A Persona-Based Neural Conversation Model](#1-a-persona-based-neural-conversation-model)
 2. [Google's Neural Machine Translation](#2-google-neural-machine-translation)
 3. [Google Multilingual Neural Machine Translation System Enabling Zero Shot Translation](#3-)
-4. [Adversarial Examples for Evaluating Reading Comprehension Systems(EMNLP)](#4-adversarial-examples-for-evaluating-reading-comprehension-systems(EMNLP))
+4. [Adversarial Examples for Evaluating Reading Comprehension Systems(EMNLP)](#4-adversarial-examples-for-evaluating-reading-comprehension-systems)
 5. [Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)](#5-)
 6. [Graph Attention Networks(ICLR)](#6-)
 7. [Universal Sentence Encoder(EMNLP)](#7-)
@@ -27,7 +27,7 @@
 # 3 Google Multilingual Neural Machine Translation System Enabling Zero Shot Translation
     - 14 Nov 2016
 
-# 4 Adversarial Examples for Evaluating Reading Comprehension Systems(EMNLP)
+# 4 Adversarial Examples for Evaluating Reading Comprehension Systems
     - 23 Jul 2017
 
 # 5 Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)
