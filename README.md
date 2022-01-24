@@ -112,22 +112,31 @@
     - 23 Jul 2017
     
     1) 저자의 연구가 왜 중요한가? 
-        - 
+        - 질문과 비슷한 문장을 생성하여 문단의 제일 끝에 추가하고 언어모델이 추가된 가짜 질문에 속지 않고 기존 전체 내용에서 올바른 답변을 추출하는지 확인
         
     2) 기존에 어떤 연구들이 이루어졌는가?
-        - 
+        - Standord Question Answering Dataset (SQuAD)
+            1. 위키피디아 글에 대해 사람이 생성한 Question으로 구성된 데이터 셋
+            2. 데이터 셋 하나마다 Paragraph + Question + Answer로 구성
+        - Models
+            1. BiDAF(Bidirectional Attention Flow)
+            2. LSTM
         
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
-        - 
+        - 네 가지 모델을 가지고 AddSent , AddOneSent, AddAny, AddCommon의 적대적 예시구문을 추가해서 테스트한 결과
+        - 모델들이 adversary에 대처를 잘하는 모습을 보이지 않음.
+        - addAny가 AddSent보다 더 효과적으로 성능을 떨어뜨림.
+        - 해당 작업이 언어를 더 깊이 이해하는 보다 정교한 모델의 개발에 동기를 부여하기를 바람
         
     4) 저자가 찾은 연구 결과가 무엇인가?
-        -
+        - 표준 평가 지표에 따른 모델의 성능은 성공적이었음에도 불구하고, 
+        - 기존의 reading Comprehension System은 adversarial evaluation에서 성능이 떨어짐
         
     5) 저자의 연구가 제기하는 문제는 무엇인가?
-        - 
+        - 많은 Reading Comprehension System들의 성능이 빠르게 향상되고 있지만, 이 모델들이 실제로 언어를 이해하고 있는 것인지는 확실치 않음
         
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
-        -
+        - 실제로 언어를 이해하는지 확인하기 위해 문단에 Adversarial Sentences가 추가되었을 때에도 질문에 대한 답변을 잘 하는지를 확인하기 위한 데이터셋을 생성
 
 # 5 Unsupervised Machine Translation Using Monolingual Corpora Only
     - 31 Oct 2017
