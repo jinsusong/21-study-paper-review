@@ -1,5 +1,5 @@
 # NLP paper review 
-[Move Text](#index-text)
+[Move Text](##index-text)
 
 ## 1. A Persona-Based Neural Conversation Model
     - 19 Mar 2016 
@@ -175,4 +175,4 @@
 ## 18. ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
     - 23 Mar 2020
     
-# Index Text
+## Index Text
