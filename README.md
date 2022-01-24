@@ -1,7 +1,7 @@
 # NLP paper review 
 1. [A Persona-Based Neural Conversation Model](#1-a-persona-based-neural-conversation-model)
 2. [Google's Neural Machine Translation](#2-google-neural-machine-translation)
-3. [Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation](#3-google-multilingual-neural-machine-translation-system-enabling-zero-shot translation)
+3. [Google's Multilingual Neural Machine Translation System Enabling Zero-Shot Translation](#3-google-multilingual-neural-machine-translation-system-enabling-zero-shot translation)
 18. [ELECTRA Pre-training Text Encoders as Discriminators Rather Than Generators](#18-electra-pre-training-text-encoders-as-discriminators-rather-than-generators)
 
 # 1 A Persona-Based Neural Conversation Model
