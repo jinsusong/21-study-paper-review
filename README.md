@@ -10,7 +10,7 @@
 # 2 Google Neural Machine Translation 
     - Nov 2016
 
-# 3 Google Multilingual Neural Machine Translation System Enabling Zero-Shot Translation
+# 3 Google Multilingual Neural Machine Translation System Enabling Zero Shot Translation
     - 14 Nov 2016
 
 # 4 Adversarial Examples for Evaluating Reading Comprehension Systems(EMNLP)
