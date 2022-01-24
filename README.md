@@ -1,7 +1,7 @@
 # NLP paper review 
 1. [A Persona-Based Neural Conversation Model](#1-a-persona-based-neural-conversation-model)
 2. [Google's Neural Machine Translation](#2-google-neural-machine-translation)
-3. [Google's Multilingual Neural Machine Translation System Enabling Zero-Shot Translation](#3-google-multilingual-neural-machine-translation-system-enabling-zero-shot translation)
+14. [Cross-lingual Language Model Pretraining](#14-cross-lingual-language-model-pretraining)
 18. [ELECTRA Pre-training Text Encoders as Discriminators Rather Than Generators](#18-electra-pre-training-text-encoders-as-discriminators-rather-than-generators)
 
 # 1 A Persona-Based Neural Conversation Model
@@ -51,7 +51,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - 미분류 데이터로부터 언어적 정보를 얻어낼 수 있는 모델을 구축해야함
 
-## 10. Neural document summarization by jointly learning to score and select sentences (ACL)
+# 10 Neural document summarization by jointly learning to score and select sentences (ACL)
     - 6 Jul 2018
     1) 저자의 연구가 왜 중요한가? 
         - 본 논문에서는 기존 두 단계로 이루어진 문장 채점과 문장 선택을 공동으로 학습하는 신경 추출 문서 요약(NEUSUM) 프레임워크를 제시함.
@@ -75,10 +75,10 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - 이전 방법과 다르게 문장을 선택할 때마다 부분 출력 요약과 현재 추출 상태에 따라 문장 점수를 매기는 구조를 제안.
 
-## 11. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+# 11 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
     - 11 Oct 2018
 
-## 12. Semi-Supervised Sequence Modeling With Cross-View Training(EMNLP)
+# 12 Semi-Supervised Sequence Modeling With Cross-View Training(EMNLP)
     - 22 Sep 2018
     
     1) 저자의 연구가 왜 중요한가? 
@@ -102,7 +102,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - self-training과 같은 오래된 준지도 학습 알고리즘은 레이블링된 데이터와 레이블링되지 않은 데이터의 혼합에 대한 작업에 대해 지속적으로 학습하기 때문에 이 문제를 겪지 않는다.
         
-## 13. A Survey on Deep Learning for Named Entity Recognition(IEEE TRANSACTIONS ON KNOWLEDGE ANDDATAENGINEERING)
+# 13 A Survey on Deep Learning for Named Entity Recognition(IEEE TRANSACTIONS ON KNOWLEDGE ANDDATAENGINEERING)
     - 22 Dec 2018
     
     1) 저자의 연구가 왜 중요한가? 
@@ -144,16 +144,16 @@
             1) 신조어, 비공식 텍스트에 대한 낮은 정확도
             2) 이전에 볼 수 없었던 비형식적 텍스트를 식별하는 능력 필요
         
-## 14. Cross-lingual Language Model Pretraining
+# 14 Cross-lingual Language Model Pretraining
     - 22 Jan 2019
 
-## 15. RoBERTa: A Robustly Optimized BERT Pretraining Approach
+# 15 RoBERTa: A Robustly Optimized BERT Pretraining Approach
     - 26 Jul 2019
 
-## 16. Text Summarization with Pretrained Encoders
+# 16 Text Summarization with Pretrained Encoders
     - 22 Aug 2019
 
-## 17. Language Models are Unsupervised Multitask Learners GPT2 
+# 17 Language Models are Unsupervised Multitask Learners GPT2 
     - Aug 2019
  
     1) 저자의 연구가 왜 중요한가? 
@@ -177,4 +177,3 @@
 # 18 ELECTRA Pre-training Text Encoders as Discriminators Rather Than Generators
     - 23 Mar 2020
     
-# 18 Index Text
