@@ -1,6 +1,6 @@
 # NLP paper review 
-[A](#-9.-improving-language-understanding-by-generative-pre-training-gpt1)    
-2. 
+[Move Text](#index-text)
+
 ## 1. A Persona-Based Neural Conversation Model
     - 19 Mar 2016 
 
@@ -26,7 +26,7 @@
 ## 8. What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)
     - 3 May 2018
 
-# 9. Improving Language Understanding by Generative Pre-Training GPT1
+# 9.Improving Language Understanding by Generative Pre-Training GPT1
     - Jun 2018
     
     1) 저자의 연구가 왜 중요한가? 
@@ -174,3 +174,5 @@
         
 ## 18. ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
     - 23 Mar 2020
+    
+#Index Text
