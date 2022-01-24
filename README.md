@@ -1,33 +1,34 @@
 # NLP paper review 
-1. [Move Text](#1-a-persona-based-neural-conversation-model)
+1. [A Persona-Based Neural Conversation Model](#1-a-persona-based-neural-conversation-model)
+2. [Google's Neural Machine Translation](#2-google's-neural-machine-translation)
 18. [ELECTRA Pre-training Text Encoders as Discriminators Rather Than Generators](#18-electra-pre-training-text-encoders-as-discriminators-rather-than-generators)
 
 # 1 A Persona-Based Neural Conversation Model
     - 19 Mar 2016 
 
-## 2. Google's Neural Machine Translation 
+# 2 Google's Neural Machine Translation 
     - Nov 2016
 
 
-## 3. Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation
+# 3 Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation
     - 14 Nov 2016
 
-## 4. Adversarial Examples for Evaluating Reading Comprehension Systems(EMNLP)
+# 4 Adversarial Examples for Evaluating Reading Comprehension Systems(EMNLP)
     - 23 Jul 2017
 
-## 5. Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)
+# 5 Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)
     - 31 Oct 2017
 
-## 6. Graph Attention Networks(ICLR)
+# 6 Graph Attention Networks(ICLR)
     - 30 Oct 2017
 
-## 7. Universal Sentence Encoder(EMNLP)
+# 7 Universal Sentence Encoder(EMNLP)
     - 29 Mar 2018
 
-## 8. What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)
+# 8 What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)
     - 3 May 2018
 
-# 9.Improving Language Understanding by Generative Pre-Training GPT1
+# 9 Improving Language Understanding by Generative Pre-Training GPT1
     - Jun 2018
     
     1) 저자의 연구가 왜 중요한가? 
