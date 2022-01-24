@@ -1,21 +1,21 @@
 # NLP paper review 
 1. [A Persona-Based Neural Conversation Model](#1-a-persona-based-neural-conversation-model)
 2. [Google's Neural Machine Translation](#2-google-neural-machine-translation)
-3. [Google Multilingual Neural Machine Translation System Enabling Zero Shot Translation](#3-)
+3. [Google Multilingual Neural Machine Translation System Enabling Zero Shot Translation](#3-google-multilingual-neural-machine-translation-system-enabling-zero-shot-translation)
 4. [Adversarial Examples for Evaluating Reading Comprehension Systems(EMNLP)](#4-adversarial-examples-for-evaluating-reading-comprehension-systems)
-5. [Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)](#5-)
-6. [Graph Attention Networks(ICLR)](#6-)
-7. [Universal Sentence Encoder(EMNLP)](#7-)
-8. [What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)](#8-)
-9. [Improving Language Understanding by Generative Pre-Training GPT1](#9-)
-10. [Neural document summarization by jointly learning to score and select sentences (ACL)](#10-)
-11. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](#11-)
-12. [Semi-Supervised Sequence Modeling With Cross-View Training(EMNLP)](#12-)
-13. [A Survey on Deep Learning for Named Entity Recognition(IEEE TRANSACTIONS ON KNOWLEDGE ANDDATAENGINEERING)](#13-)
+5. [Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)](#5-unsupervised-machine-translation-using-monolingual-corpora-only)
+6. [Graph Attention Networks(ICLR)](#6-graph-attention-networks)
+7. [Universal Sentence Encoder(EMNLP)](#7-universal-sentence-encoder)
+8. [What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)](#8-what-you-can-cram-into-a-single-vector-probing-sentence-embeddings-for-linguistic-properties)
+9. [Improving Language Understanding by Generative Pre-Training GPT1](#9-improving-language-understanding-by-generative-pre-training)
+10. [Neural document summarization by jointly learning to score and select sentences (ACL)](#10-Neural-document-summarization-by-jointly-learning-to-score-and-select-sentences)
+11. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](#11-BERT-pre-training-of-deep-bidirectional-transformers-for-language-understanding)
+12. [Semi-Supervised Sequence Modeling With Cross-View Training(EMNLP)](#12-semi-supervised-sequence-modeling-with-cross-view-training)
+13. [A Survey on Deep Learning for Named Entity Recognition(IEEE TRANSACTIONS ON KNOWLEDGE ANDDATAENGINEERING)](#13-a-survey-on-deep-learning-for-named-entity-recognition)
 14. [Cross-lingual Language Model Pretraining](#14-cross-lingual-language-model-pretraining)
-15. [RoBERTa: A Robustly Optimized BERT Pretraining Approach](#15-)
-16. [Text Summarization with Pretrained Encoders](#16-)
-17. [Language Models are Unsupervised Multitask Learners GPT2 ](#17-language-models-are-unsupervised-multitask-learners-gpt2-)
+15. [RoBERTa: A Robustly Optimized BERT Pretraining Approach](#15-roberta-a-robustly-optimized-bert-pretraining-approach)
+16. [Text Summarization with Pretrained Encoders](#16-text-summarization-with-pretrained-encoders)
+17. [Language Models are Unsupervised Multitask Learners GPT2 ](#17-language-models-are-unsupervised-multitask-learners-gpt2)
 18. [ELECTRA Pre-training Text Encoders as Discriminators Rather Than Generators](#18-electra-pre-training-text-encoders-as-discriminators-rather-than-generators)
 
 # 1 A Persona-Based Neural Conversation Model
@@ -102,7 +102,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         -
 
-# 5 Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)
+# 5 Unsupervised Machine Translation Using Monolingual Corpora Only
     - 31 Oct 2017
     
     1) 저자의 연구가 왜 중요한가? 
@@ -123,7 +123,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         -
 
-# 6 Graph Attention Networks(ICLR)
+# 6 Graph Attention Networks
     - 30 Oct 2017
     
     1) 저자의 연구가 왜 중요한가? 
@@ -144,7 +144,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         -
 
-# 7 Universal Sentence Encoder(EMNLP)
+# 7 Universal Sentence Encoder
     - 29 Mar 2018
     
     1) 저자의 연구가 왜 중요한가? 
@@ -165,7 +165,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         -
 
-# 8 What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)
+# 8 What you can cram into a single vector Probing sentence embeddings for linguistic properties
     - 3 May 2018
     
     1) 저자의 연구가 왜 중요한가? 
@@ -186,7 +186,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         -
 
-# 9 Improving Language Understanding by Generative Pre-Training GPT1
+# 9 Improving Language Understanding by Generative Pre Training
     - Jun 2018
     
     1) 저자의 연구가 왜 중요한가? 
@@ -209,7 +209,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - 미분류 데이터로부터 언어적 정보를 얻어낼 수 있는 모델을 구축해야함
 
-# 10 Neural document summarization by jointly learning to score and select sentences (ACL)
+# 10 Neural document summarization by jointly learning to score and select sentences
     - 6 Jul 2018
     1) 저자의 연구가 왜 중요한가? 
         - 본 논문에서는 기존 두 단계로 이루어진 문장 채점과 문장 선택을 공동으로 학습하는 신경 추출 문서 요약(NEUSUM) 프레임워크를 제시함.
@@ -233,10 +233,10 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - 이전 방법과 다르게 문장을 선택할 때마다 부분 출력 요약과 현재 추출 상태에 따라 문장 점수를 매기는 구조를 제안.
 
-# 11 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+# 11 BERT Pre training of Deep Bidirectional Transformers for Language Understanding
     - 11 Oct 2018
 
-# 12 Semi-Supervised Sequence Modeling With Cross-View Training(EMNLP)
+# 12 Semi Supervised Sequence Modeling With Cross View Training
     - 22 Sep 2018
     
     1) 저자의 연구가 왜 중요한가? 
@@ -260,7 +260,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - self-training과 같은 오래된 준지도 학습 알고리즘은 레이블링된 데이터와 레이블링되지 않은 데이터의 혼합에 대한 작업에 대해 지속적으로 학습하기 때문에 이 문제를 겪지 않는다.
         
-# 13 A Survey on Deep Learning for Named Entity Recognition(IEEE TRANSACTIONS ON KNOWLEDGE ANDDATAENGINEERING)
+# 13 A Survey on Deep Learning for Named Entity Recognition
     - 22 Dec 2018
     
     1) 저자의 연구가 왜 중요한가? 
@@ -328,7 +328,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - 다양한 나라의 언어가 하나의 임베딩 공간을 공유하여, 어떤 문장이라도 해당 임베딩 공간에 인코딩할 수 있는 Universal cross-lingual encoder 를 만들어야함.
 
-# 15 RoBERTa: A Robustly Optimized BERT Pretraining Approach
+# 15 RoBERTa A Robustly Optimized BERT Pretraining Approach
     - 26 Jul 2019
     
     1) 저자의 연구가 왜 중요한가? 
@@ -370,7 +370,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         -
 
-# 17 Language Models are Unsupervised Multitask Learners GPT2 
+# 17 Language Models are Unsupervised Multitask Learners GPT2
     - Aug 2019
  
     1) 저자의 연구가 왜 중요한가? 
