@@ -1,5 +1,6 @@
 # NLP paper review 
-[Move Text](##index-text)
+[Move Text](#index-text)
+[Move Text](#18.-ELECTRA:-Pre-training-Text-Encoders-as-Discriminators-Rather-Than-Generators)
 
 ## 1. A Persona-Based Neural Conversation Model
     - 19 Mar 2016 
@@ -172,7 +173,7 @@
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         -
         
-## 18. ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
+# 18. ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators
     - 23 Mar 2020
     
-## Index Text
+# Index Text
