@@ -22,22 +22,38 @@
     - 19 Mar 2016 
     
     1) 저자의 연구가 왜 중요한가? 
-        - 
+        - 화자의 페르소나를 고려한 응답생성 모델을 구축함
+            1) Speaker Model
+                - 응답을 내놓게 되는 화자의 화자벡터를 디코더의 인풋과 함께 넣어주는 모델
+                - 화자에 맞는 적합한 응답을 출력할 수 있도록 목표함
+            2) Speaker-Addressee Model
+                - 각 화자가 상대방에 따라 발화한 문장들을 바탕으로 화자를 특징짓는 모델
         
     2) 기존에 어떤 연구들이 이루어졌는가?
-        - 
+        - Data-driven response generation in social media : 대화의 생성 문제를 통계적 기계 번역 문제로 취급한 것 , 사람의 개입없이 학습함
+        - A neural network approach to context-sensitive generation of conversational responses : Ritter et al의 확장 연구 , continuous RLM을 사용해 과거의 대화 내용을 기반으로 다음 대답을 생성하는 방법
+        - Building end-to-end dialogue systems using generative hierarchical neural network models : 확장된 대화 기록에 대한 종속성을 파악하기 위해 hierarchical neural model 을 제안
+        - All the World's a Stage : Learning Character Models from Film : 영화스크립트를 기반으로 캐릭터 유형에 따른 모델을 학습
+        - 최근 관련 연구 : 논문을 인용한 papers 데이터 셋의 구축을 통해 페르소나 문제를 해결해보자
+            1. Personalizinf Dialogue Agents : Crowd-sourcing으로 페르소나 데이터셋 구축
+            2. Training Millions of Personalized Dialogue Agents : Crowd-sourcing은 부족, Reddit 데이터를 이용해서 대량의 페르소나 데이터셋 구축
         
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
-        - 
+        - Persona모델이 개인적 특성을 포착할 수 있음을 보여줌.
+        - Speaker-Addressee모델에서는 이원적 특성을 포착할 수 있음을 보여줌.
         
     4) 저자가 찾은 연구 결과가 무엇인가?
-        -
+        - BLEU, Perplexity, 인적 평가에서 Speaker의 Consistency는 Baseline보다 뛰어남.
         
     5) 저자의 연구가 제기하는 문제는 무엇인가?
-        - 
+        - 오픈도메인에서 자연스러운 대화를 위한 연구를 진행되면서 문제점이 발견됨
+        - 데이터 기반 시스템의 문제 : training data 중 가장 가능성이 높은 응답을 선택
+            1. 결과가 모호함
+            2. 일관성이 없음
         
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
-        -
+        - consistency : 일관성문제 
+        - coherent persona : 일관된 페르소나를 부여하는 방법
 
 # 2 Google Neural Machine Translation 
     - Nov 2016
