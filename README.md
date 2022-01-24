@@ -1,7 +1,21 @@
 # NLP paper review 
 1. [A Persona-Based Neural Conversation Model](#1-a-persona-based-neural-conversation-model)
 2. [Google's Neural Machine Translation](#2-google-neural-machine-translation)
+3. [Google Multilingual Neural Machine Translation System Enabling Zero Shot Translation](#3-)
+4. [Adversarial Examples for Evaluating Reading Comprehension Systems(EMNLP)](#4-adversarial-examples-for-evaluating-reading-comprehension-systems(EMNLP))
+5. [Unsupervised Machine Translation Using Monolingual Corpora Only(ICLR)](#5-)
+6. [Graph Attention Networks(ICLR)](#6-)
+7. [Universal Sentence Encoder(EMNLP)](#7-)
+8. [What you can cram into a single vector: Probing sentence embeddings for linguistic properties(ACL)](#8-)
+9. [Improving Language Understanding by Generative Pre-Training GPT1](#9-)
+10. [Neural document summarization by jointly learning to score and select sentences (ACL)](#10-)
+11. [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](#11-)
+12. [Semi-Supervised Sequence Modeling With Cross-View Training(EMNLP)](#12-)
+13. [A Survey on Deep Learning for Named Entity Recognition(IEEE TRANSACTIONS ON KNOWLEDGE ANDDATAENGINEERING)](#13-)
 14. [Cross-lingual Language Model Pretraining](#14-cross-lingual-language-model-pretraining)
+15. [RoBERTa: A Robustly Optimized BERT Pretraining Approach](#15-)
+16. [Text Summarization with Pretrained Encoders](#16-)
+17. [Language Models are Unsupervised Multitask Learners GPT2 ](#17-language-models-are-unsupervised-multitask-learners-gpt2-)
 18. [ELECTRA Pre-training Text Encoders as Discriminators Rather Than Generators](#18-electra-pre-training-text-encoders-as-discriminators-rather-than-generators)
 
 # 1 A Persona-Based Neural Conversation Model
