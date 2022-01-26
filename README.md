@@ -411,10 +411,27 @@
     - 26 Jul 2019
     
     1) 저자의 연구가 왜 중요한가? 
-        - 이전 BERT Model에서 간과된 설계 결정의 중요성을 보여주며 성능 향상을 보여줌.
+        - 이전 BERT Model에서 간과된 설계 결정(배치 사이즈, 하이퍼파라미터 등)의 중요성을 보여주며 성능 향상을 보여줌.
         
     2) 기존에 어떤 연구들이 이루어졌는가?
-        - bert
+        - BERT : 
+            1. 트랜스포머의 인코더 부분을 가지고 와서 16GB의 대용량 데이터를 학습시킨 pre-training 모델 
+
+            2. Training Objectives
+                - Masked Language Model
+                - Next Sentence Prediction
+
+            3. Optimization
+                - Adam
+                - droupout of 0.1 
+                - GELU activation function
+                - 1,000,000 updates
+                - 256 minibatch
+                - 512 tokens.
+
+            4. Data (16GB)
+                - BOOKCORPUS
+                - English Wikipedia
         
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
         - BERT 설계 방법과 훈련 전략을 제시하고 더 나은 다운스트림 작업 성과로 이어지는 대안을 제안 
@@ -431,7 +448,7 @@
                 
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - 더 큰 배치로 더 많은 데이터에 대해 모델을 더 오래 훈련
-        - next sentence 예측 목표를 제거
+        - NSP(next sentence prediction) 목표를 제거
         - 더 긴 시퀀스에 대한 훈련 
         - 훈련 데이터에 적용된 마스킹 패턴을 동적으로 변경하는 것을 포함
         - 훈련 세트 크기 효과를 보다 효과적으로 제어하기 위해 다른 민간 데이터 세트와 비슷한 크기의 대규모 새 데이터 세트(CC-NEWS)를 수집
