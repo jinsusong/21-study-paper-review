@@ -503,22 +503,67 @@
     - Aug 2019
  
     1) 저자의 연구가 왜 중요한가? 
-        - 
+        - GPT-2 제안 
+        - fine-tuning을 제거하고 unsupervised multitask learning이 가능해짐.
+        - Language Modeling for General system
+            1. supervised data가 얼마 없거나 없을 때 Language Model이 task 수행하도록 하자
+            2. Zero-shot setting (Parameter & architecture 수정 x)에서 LM이 down-stream task 수행
+            3. LM은 보통 symbol sequence의 분포 추정하는 것으로 정의
+            4. Single task : p(output | input)
+            5. Multi task : p(output | input, task)
+            6. Language model이 충분한 용량을 가진다면 unsupervised multitask learning이 가능해질 것
         
     2) 기존에 어떤 연구들이 이루어졌는가?
-        - 
-        
+        - Pre-training + Fine-tunning
+            1. BERT, GPT-1 etc,
+            2. Pros
+                - Task-specific architecture 필요 x
+                - Self-attention block 많이 transfer하면 됨
+            3. Cons
+                - Fins-tuning 시 여전히 필요한 supervised data
+                
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
-        - 
+        - 1. supervised data가 얼마 없거나 없을 때 Language Model이 task 수행하도록 하자 
+        - 2. Zero-shot setting (Parameter & architecture 수정 x)에서 LM이 down-stream task 수행
         
     4) 저자가 찾은 연구 결과가 무엇인가?
-        -
+        - 1BW 제외 모두 SoTA 달성
+        - Other tasks
+            1. Reading Comprehension
+                CoQA dataset
+                55 F1 score (SoTA: BERT, 90 F1 score)
+                supervised training 없이 이정도 성능 나옴에 기대
+                Summarization
+
+            2. CNN and Daily Mail dataset
+                Task 유도용으로 TL; DR; 추가
+                성능 별로 안 좋음
+                Article의 최근 content나 detail 부분에 focusing 하는 경우 많아서
+            3. Trainslation
+                WMT-14 English-French, WMT-14 French-English
+                English-French : 5 BLEU
+                French-English : 11.5 BLEU
+                WebText dataset에 프랑스어 10MB 밖에 없어서
+                Question Answering
+
+            4. Natural Questions dataset, SQuAD
+                4.1% 정답
+            
+        - Data overlap
+
+            Train data와 test data가 많이 중복될 경우 생김
+            중복 많은 경우 generalization 성능 over-reporting
+            얼마나 겹치는지 분석하는 것이 중요함
+        - WebText dataset
+
+            다른 LM benchmark datasets와 평균 3.2% overlap
+            다른 datasets는 평균 5.9% overlap
         
     5) 저자의 연구가 제기하는 문제는 무엇인가?
-        - 
+        - Fine-tuning 시 여전히 필요한 supervised data
         
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
-        -
+        - Pre-training 만 사용해서 Multi task를 수행
         
 # 18 ELECTRA Pre-training Text Encoders as Discriminators Rather Than Generators
     - 23 Mar 2020
