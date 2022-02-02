@@ -43,16 +43,16 @@
             1. Personalizinf Dialogue Agents : Crowd-sourcing으로 페르소나 데이터셋 구축
             2. Training Millions of Personalized Dialogue Agents : Crowd-sourcing은 부족, Reddit 데이터를 이용해서 대량의 페르소나 데이터셋 구축
         
-    >-3) 저자의 연구가 이 분야에 무엇을 기여하는가?
+    3) 저자의 연구가 이 분야에 무엇을 기여하는가?
     
         - Persona모델이 개인적 특성을 포착할 수 있음을 보여줌.
         - Speaker-Addressee모델에서는 이원적 특성을 포착할 수 있음을 보여줌.
         
-    >-4) 저자가 찾은 연구 결과가 무엇인가?
+    4) 저자가 찾은 연구 결과가 무엇인가?
     
         - BLEU, Perplexity, 인적 평가에서 Speaker의 Consistency는 Baseline보다 뛰어남.
         
-    >-5) 저자의 연구가 제기하는 문제는 무엇인가?
+    5) 저자의 연구가 제기하는 문제는 무엇인가?
     
         - 오픈도메인에서 자연스러운 대화를 위한 연구를 진행되면서 문제점이 발견됨
         - 데이터 기반 시스템의 문제 : training data 중 가장 가능성이 높은 응답을 선택
@@ -60,7 +60,7 @@
             1. 결과가 모호함
             2. 일관성이 없음
         
-    >-6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
+    6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
     
         - consistency : 일관성문제 
         - coherent persona : 일관된 페르소나를 부여하는 방법
