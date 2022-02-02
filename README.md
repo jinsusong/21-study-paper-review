@@ -556,9 +556,31 @@
     1) 저자의 연구가 왜 중요한가? 
         - 우리는 언어 표현 학습을 위한 새로운 자체 감독 작업인 대체 토큰 탐지를 제안
         - 마스킹된 언어 모델링과 비교하여 우리의 사전 교육 목표는 계산 효율성이 더 높고 다운스트림 작업에서 더 나은 성능을 제공
+        - Generator 와 Discriminator 두가지로 나뉨
+            1. [MASK] 한 input 값이 들어오면 sampleing 을 통해 MASK 를 예측하게 되고
+                - Generator
+                    1. input sequence x가 들어왔을 때 마스킹할 위치 m 을 랜덤하게 결정
+                    2. 마스킹된 토큰들은 [MASK] 토큰으로 대체
+                    3. 마스킹 된 입력 시퀀스 x에 대해서 generator는 원래 토큰이 무엇인지 예측
+            2. 이를 Discriminator의 input 값으로 넣어주면 원본인지 대체인지 판별한다.
+                - Discriminator
+                    1. Discriminator input 생성 - [MASK] 에서 샘플링한 토큰으로 치환
+                    2. Discriminator 는 x가 원본 입력 토큰과 동일한건지, Generator 가 만들어낸 것인지 예측
         
     2) 기존에 어떤 연구들이 이루어졌는가?
         - BERT
+        - GAN 
+        1. 예측 차이점
+            - ELECTRA는 Generator 가 만들어낸 토큰이 원본 토큰과 동일할 경우 원본으로 판단
+            - GAN은 Generator가 만들어낸 토큰이 원본 토큰과 동일하더라도 대체로 판단
+            - GAN은 각 토큰이 원본인지 아닌지가 아니라 Generator가 만든것인지 아닌지를 더 중요하게 판단함.
+        2. 학습 방법 차이점
+            - GAN : generator와 discriminator가 adversarial하게 학습
+            - ELECTRA : generator와 discriminator가 각자 학습
+        3. 입력 차이점
+            - GAN : Generator의 입력으로 노이즈 벡터를 넣음
+            - ELECTRA : 노이즈 넣지 않음
+        
         
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
         - 비교적 적은 양의 컴퓨팅을 사용하는 경우에도 잘 작동하며, 컴퓨팅 리소스에 대한 접근성이 낮은 연구자와 실무자가 사전 훈련된 텍스트 인코더를 개발
@@ -568,6 +590,9 @@
         - 다양한 크기의 ELECTRA 모델을 교육하고 다운스트림 성능과 컴퓨팅 요구 사항을 평가
         - ELECTRA는 동일한 모델 크기, 데이터 및 컴퓨팅에서 BERT 및 XLNet과 같은 MLM 기반 방법을 상당히 능가
         - ELECTRA-Small은 GLUE에서 비교적 작은 BERT 모델을 5점 능가하고 훨씬 큰 GPT 모델도 능가
+        - ELECTRA 15% : 원래 ELECTRA와 동일하나, 판별 모델의 loss는 마스킹된 15%의 토큰에서 온 것만을 사용
+        - Replace MLM : MLM과 비슷하지만, 마스킹된 토큰 [MASK]를 인풋으로 받는 대신, 생성모델이 만들어낸 토큰으로 대체하여 MLM을 진행
+        - All-Tokens MLM : BERT와 ELECTRA를 합친 것으로 mask된 코큰이 아닌 모든 토큰을 예측하는 모델
         
     5) 저자의 연구가 제기하는 문제는 무엇인가?
         - 다운스트림 NLP 작업으로 전환하면 좋은 결과가 나오지만, 효과적이려면 일반적으로 많은 양의 컴퓨팅이 필요하다.
