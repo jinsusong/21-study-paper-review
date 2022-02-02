@@ -21,7 +21,7 @@
 # 1 A Persona-Based Neural Conversation Model
     - 19 Mar 2016 
     
-    >-1) 저자의 연구가 왜 중요한가? 
+        >-1) 저자의 연구가 왜 중요한가? 
         - 화자의 페르소나를 고려한 응답생성 모델을 구축함
             1) Speaker Model
                 - 응답을 내놓게 되는 화자의 화자벡터를 디코더의 인풋과 함께 넣어주는 모델
