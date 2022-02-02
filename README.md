@@ -523,9 +523,10 @@
                 - Fins-tuning 시 여전히 필요한 supervised data
                 
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
-        - 1. supervised data가 얼마 없거나 없을 때 Language Model이 task 수행하도록 하자 
-        - 2. Zero-shot setting (Parameter & architecture 수정 x)에서 LM이 down-stream task 수행
-        
+        1. Language Model의 capacity가 down-stream task 성능에 영향을 주는 것을 확인
+        2. 더 큰 capacity의 LM 만든다면 성능 더 좋아질 것
+        3. Fine-tunning 추가 시 성능 개선 기대 ( + uni-directional representation 단점 극복 기대)
+                
     4) 저자가 찾은 연구 결과가 무엇인가?
         - 1BW 제외 모두 SoTA 달성
         - Other tasks
@@ -564,6 +565,8 @@
         
     6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
         - Pre-training 만 사용해서 Multi task를 수행
+        - supervised data가 얼마 없거나 없을 때 Language Model이 task 수행하도록 하자 
+        - Zero-shot setting (Parameter & architecture 수정 x)에서 LM이 down-stream task 수행
         
 # 18 ELECTRA Pre-training Text Encoders as Discriminators Rather Than Generators
     - 23 Mar 2020
