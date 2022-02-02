@@ -457,23 +457,48 @@
     - 22 Aug 2019
     
     1) 저자의 연구가 왜 중요한가? 
-        - 
-        
+        - BERT 모델을 요약 task에 적용
+        - document-level encoder 소개 
+        - 추출요약과 생성요약 모두를 반영한 general framework를 제안 (BERTSumEXTABS)
+                
     2) 기존에 어떤 연구들이 이루어졌는가?
-        - 
+        - Transformer
+        - BERT : MLM , NSP
         
     3) 저자의 연구가 이 분야에 무엇을 기여하는가?
-        - 
+        - 목적은 문서의 의미를 대부분 보존하면서 문서를 더 짧은 버전으로 압축하는 것이다. 
+        - 실험 데이터셋에 대하여 SOTA를 달성 (automatic, human-based 모두)
         
     4) 저자가 찾은 연구 결과가 무엇인가?
-        -
-        
-    5) 저자의 연구가 제기하는 문제는 무엇인가?
-        - 
-        
-    6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
-        -
+        -BERTSum 제안 
+            1. 각 문장의 시작에 [CLS] 토큰을 삽입
+                -개별 문장의 representation을 얻을 수 있음.
+            2. segmentation embedding
+                -입력된 여러 문장을 구분하기 위해 수행
+        - BERTSumExt 제안 
+            1. BERTSumExt는 BERTSum의 출력토큰 중에 [CLS] 토큰만을 선택하여 두 개의 레이어로 구성된 트랜스포머 레이어에 입력된다.
+            2. 그 후에 바이너리 classifier를 통해 해당 토큰이 요약문에 포함이 될 수 있는지 분류함
+        - BERTSumAbs 제안
+            1. BERTSUM은 인코더로, 랜덤 초기화된 decoder와 조합해야함
+            2. decoder는 사전학습된 encoder와는 다르게 랜덤하게 초기화되어있음.
+            3. 이 차이는 학습을 불안정하게 만든다.
+            4. 이를 해결하기 위해 encoder와 decoder의 옵티마이저의 순을 분리하는 전략을 활용한
+            5. 기본적으로 인코더의 learning-rate를 보다 작게 사용함.
 
+        - BERTSumEXTABS 제안
+            1. extractive summarization task를 수행한 후
+            2. BERTSum Encoder 부분만을 가지고와서 abstactive summarization task를 수행함
+                
+    5) 저자의 연구가 제기하는 문제는 무엇인가?
+        - 이전 과제와 달리 요약에는 개별 단어와 문장의 의미를 넘어 광범위한 자연어 이해가 필요하다. 
+        - 추출 요약은 원본 텍스트에 포함되지 않은 새로운 단어와 구문을 포함하는 요약을 만들기 위해 언어 생성 기능이 필요하다. 요약에 포함되어야 한다
+     
+    6) 연구 문제를 위해 풀어야 하는 구체적인 문제는 무엇인가? 
+        1. BERT는 문장단위로 사전학습됨.
+            - 추출요약문에 포함시킬 요약문을 찾기위해서 여러 문장에 대한 representation이 필요함. 하지만, 기존 BERT는 입력문서에 대한 하나의 representation만 얻을 수 있음.
+        2. 인코더와 디코더간의 차이
+            - fine tuning 하기 위해 인코더는 사전학습 되어있으며 요약문 생성을 위한 디코더는 랜덤하게 초기화되어있다.
+        
 # 17 Language Models are Unsupervised Multitask Learners GPT2
     - Aug 2019
  
